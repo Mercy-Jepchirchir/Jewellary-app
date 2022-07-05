@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TungareActivity">
+
+    <ImageView
+        android:id="@+id/imgLady1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="64dp"
+        app:circularflow_defaultRadius="40dp"
+        app:circularflow_radiusInDP="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.043"
+        app:srcCompat="@drawable/earing1" />
+
+    <TextView
+        android:id="@+id/tvLady1"
+        android:layout_width="297dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="64dp"
+        android:text=" Through the years among women, earrings are a symbol womanhood ."
+        android:textIsSelectable="false"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgLady1" />
+
+    <TextView
+        android:id="@+id/tvSkip"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="256dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="90dp"
+        android:text="SKIP"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvLady1" />
+
+    <TextView
+        android:id="@+id/tvDotts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="281dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="112dp"
+        android:text=". . ."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSkip" />
+
+</android.support.constraint.ConstraintLayout>
